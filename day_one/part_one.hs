@@ -18,8 +18,8 @@ solve input =
   let (leftList, rightList) = parseInput input
   in calculateDistance leftList rightList
 
--- main :: IO ()
--- main = do
---   input <- readFile "day_one/input.txt"  -- Read from input.txt
---   let result = solve input
---   print result
+main :: IO ()
+main = do
+  input <- readFile "day_one/input.txt"  
+  let result = solve input
+  print result
